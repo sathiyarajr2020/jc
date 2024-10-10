@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #FCF6F5;
+  }
+  
+  .landing-page {
+    text-align: center;
+    color: #FCF6F5;
+  }
+  
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #990011;
+    z-index: 1000;
+    border-bottom: 5px solid #FCF6F5;
+  }
+  
+  .logo-image {
+    height: 50px;
+    width: auto;
+  }
+  
+  .nav {
+    display: flex;
+    margin-right: 100px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-item {
+    color: #FCF6F5;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  /* .nav-item:hover {
+    color: #ff6363;
+  } */
+  
+  .hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 80px; /* Space for the fixed header */
+  }
+  
+  .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .hero-title {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    /* color: #6E2061; */
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 45px;
+  }
+  
+  .hero-image {
+    width: 40%;
+    max-width: 400px;
+  }
+  
+  .cta-section {
+    margin: 50px 0;
+  }
+  
+  .cta-button {
+    background-color: #990011;
+    border: none;
+    color: #FCF6F5;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* .cta-button:hover {
+    background-color: #ff4a4a;
+  } */
+  
+  .features-section,
+  .testimonials-section {
+    padding: 50px 20px;
+    background-color: #990011;
+  }
+  
+  .features-section h2,
+  .testimonials-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .features-grid,
+  .testimonials-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .feature-box,
+  .testimonial-box {
+    background-color: #FCF6F5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+  }
+  
+  .para {
+    color:#990011;
+    text-align: justify;
+  }
+  
+  .footer {
+    background-color: #990011;
+    padding: 20px;
+    color: #FCF6F5;
+    font-size: 1rem;
+    margin-top: 50px;
+  }
+  
+  /* Upcoming Prayer Meetings Section */
+  /* Upcoming Prayer Meetings */
+  .upcoming-prayer-section {
+    padding: 50px 100px;
+    background-color: #FCF6F5;
+    color: #333;
+  }
+  
+  .upcoming-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .view-all-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #990011;
+    color: #FCF6F5;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .view-all-button:hover {
+    background-color: #990011;
+  }
+  
+  .prayer-meetings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .prayer-card {
+    background: #FCF6F5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .prayer-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .date-box {
+    background-color: #990011;
+    color: #FCF6F5;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80px;
+  }
+  
+  .meeting-info h4 {
+    margin: 0;
+  }
+  
+  .meeting-info p {
+    margin: 5px 0;
+  }
+  
+  .feature-image {
+    width: 200px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 10px; /* Space between image and text */
+  }
+  .testimonials-section {
+    position: relative;
+    padding: 50px 20px;
+    background-color: #990011;
+    overflow: hidden;
+  }
+  
+  .testimonials-graphic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.1; /* Light opacity for subtle effect */
+    width: 100%; /* Adjust graphic size */
+    height: auto;
+  }
+  
+  .testimonial-box {
+    background-color: #FCF6F5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .testimonial-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .para {
+    color: #990011;
+    text-align: justify;
+  }
+  
